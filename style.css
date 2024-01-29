@@ -45,6 +45,11 @@ body {
 #about .imgbox {
   width: 400px;
 }
+@media (max-width: 767px) {
+  #about .imgbox {
+    margin-top: 30px;
+  }
+}
 
 #carefor {
   padding: 40px 0;
@@ -60,6 +65,11 @@ body {
 }
 #carefor .imgbox {
   width: 450px;
+}
+@media (max-width: 767px) {
+  #carefor .imgbox {
+    margin-top: 30px;
+  }
 }
 
 #doggerblog {
@@ -172,15 +182,15 @@ body {
 #pricingtable {
   padding: 40px 0;
 }
-#pricingtable .texbox {
+#pricingtable .textbox {
   width: 580px;
   text-align: center;
 }
-#pricingtable .texbox h1 {
+#pricingtable .textbox h1 {
   font-size: 33px;
   font-weight: 700;
 }
-#pricingtable .texbox h5 {
+#pricingtable .textbox h5 {
   font-weight: 200;
   font-size: 18px;
   color: #000000;
