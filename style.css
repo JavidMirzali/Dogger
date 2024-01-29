@@ -45,6 +45,9 @@ body {
 #about .imgbox {
   width: 400px;
 }
+#about .imgbox img {
+  border-radius: 20px;
+}
 @media (max-width: 767px) {
   #about .imgbox {
     margin-top: 30px;
@@ -65,6 +68,9 @@ body {
 }
 #carefor .imgbox {
   width: 450px;
+}
+#carefor .imgbox img {
+  border-radius: 20px;
 }
 @media (max-width: 767px) {
   #carefor .imgbox {
@@ -103,6 +109,9 @@ body {
 }
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   margin: 20px 0 0;
+}
+#doggerblog .imgbox img {
+  border-radius: 20px;
 }
 #doggerblog .wid {
   width: 580px;
@@ -175,6 +184,9 @@ body {
 #ourtrainers .box ul li .icon {
   margin: -8px;
 }
+#ourtrainers .imgbox img {
+  border-radius: 20px;
+}
 #ourtrainers .wid {
   width: 580px;
 }
@@ -198,6 +210,7 @@ body {
 }
 #pricingtable .box {
   background-color: #708f97;
+  border-radius: 20px;
   color: #fff;
   width: 300px;
   padding: 35px 30px;
@@ -229,9 +242,15 @@ body {
 }
 #pricingtable .PREMIUM-COLOR {
   background-color: #2b383c;
+  border-radius: 20px;
 }
 #pricingtable .PREMIUM-COLOR .btn {
   background-color: #708f97;
+}
+@media (max-width: 767px) {
+  #pricingtable .box {
+    margin-top: 30px;
+  }
 }
 
 #questions {
@@ -282,6 +301,14 @@ body {
 #questions .bigicon i {
   font-size: 30px;
 }
+#questions .imgbox img {
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  #questions .imgbox {
+    margin-top: 30px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -313,7 +340,15 @@ body {
   background-color: #a0c1c5;
   color: white;
 }
+#welcome .imgbox img {
+  border-radius: 20px;
+}
 #welcome .wid {
   width: 580px;
   padding: 0;
+}
+@media (max-width: 767px) {
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
