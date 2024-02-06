@@ -52,6 +52,10 @@ body {
   #about .imgbox {
     margin-top: 30px;
   }
+  #about .textbox h1, #about .textbox h3, #about .textbox p {
+    text-align: start;
+    padding: 0;
+  }
 }
 
 #carefor {
@@ -116,6 +120,11 @@ body {
 #doggerblog .wid {
   width: 580px;
 }
+@media (max-width: 767px) {
+  #doggerblog .wid h1, #doggerblog .wid h3 {
+    text-align: start;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
@@ -142,6 +151,11 @@ body {
 }
 #ourservices .textbox .icon {
   font-size: 60px;
+}
+@media (max-width: 767px) {
+  #ourservices .wid h1, #ourservices .wid h3 {
+    text-align: start;
+  }
 }
 
 #ourtrainers {
@@ -189,6 +203,11 @@ body {
 }
 #ourtrainers .wid {
   width: 580px;
+}
+@media (max-width: 767px) {
+  #ourtrainers .textbox h1, #ourtrainers .textbox h3 {
+    text-align: start;
+  }
 }
 
 #pricingtable {
@@ -251,6 +270,9 @@ body {
   #pricingtable .box {
     margin-top: 30px;
   }
+  #pricingtable .textbox {
+    text-align: start;
+  }
 }
 
 #questions {
@@ -308,6 +330,12 @@ body {
   #questions .imgbox {
     margin-top: 30px;
   }
+  #questions .wid h1, #questions .wid h3 {
+    text-align: start;
+  }
+  #questions .textbox h4, #questions .textbox p {
+    text-align: start;
+  }
 }
 
 #welcome {
@@ -350,5 +378,11 @@ body {
 @media (max-width: 767px) {
   #welcome .imgbox {
     margin-top: 30px;
+  }
+  #welcome .textbox h1, #welcome .textbox h3 {
+    text-align: start;
+  }
+  #welcome .textbox h2, #welcome .textbox h6 {
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
