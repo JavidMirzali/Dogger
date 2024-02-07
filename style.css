@@ -3,13 +3,17 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
 
-#about {
-  padding: 90px 0;
+section {
+  padding: 50px 0;
 }
+
 #about .textbox {
   padding: 0 50px;
 }
@@ -44,8 +48,6 @@ body {
 }
 #about .imgbox {
   width: 400px;
-}
-#about .imgbox img {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -58,9 +60,6 @@ body {
   }
 }
 
-#carefor {
-  padding: 40px 0;
-}
 #carefor .textbox h1 {
   font-weight: 700;
   font-size: 55px;
@@ -72,8 +71,6 @@ body {
 }
 #carefor .imgbox {
   width: 450px;
-}
-#carefor .imgbox img {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -82,9 +79,6 @@ body {
   }
 }
 
-#doggerblog {
-  padding: 40px 0;
-}
 #doggerblog .box {
   display: flex;
 }
@@ -114,7 +108,7 @@ body {
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   margin: 20px 0 0;
 }
-#doggerblog .imgbox img {
+#doggerblog .imgbox {
   border-radius: 20px;
 }
 #doggerblog .wid {
@@ -126,9 +120,6 @@ body {
   }
 }
 
-#ourservices {
-  padding: 40px 0;
-}
 #ourservices .wid {
   width: 580px;
 }
@@ -158,9 +149,6 @@ body {
   }
 }
 
-#ourtrainers {
-  padding: 40px 0;
-}
 #ourtrainers h1 {
   font-weight: 700;
   font-size: 36px;
@@ -198,7 +186,7 @@ body {
 #ourtrainers .box ul li .icon {
   margin: -8px;
 }
-#ourtrainers .imgbox img {
+#ourtrainers .imgbox {
   border-radius: 20px;
 }
 #ourtrainers .wid {
@@ -210,9 +198,6 @@ body {
   }
 }
 
-#pricingtable {
-  padding: 40px 0;
-}
 #pricingtable .textbox {
   width: 580px;
   text-align: center;
@@ -275,9 +260,6 @@ body {
   }
 }
 
-#questions {
-  padding: 40px 0;
-}
 #questions .wid {
   width: 500px;
 }
@@ -323,7 +305,7 @@ body {
 #questions .bigicon i {
   font-size: 30px;
 }
-#questions .imgbox img {
+#questions .imgbox {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -338,9 +320,6 @@ body {
   }
 }
 
-#welcome {
-  padding: 40px 0;
-}
 #welcome .textbox {
   padding: 80px;
 }
@@ -368,7 +347,7 @@ body {
   background-color: #a0c1c5;
   color: white;
 }
-#welcome .imgbox img {
+#welcome .imgbox {
   border-radius: 20px;
 }
 #welcome .wid {
